@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600;700&display=swap');
 body {
     height: 100%;
+    font-family:  'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -90,8 +92,7 @@ body {
     color: #e69c7a;
 }
 .time-box {
-    display: flex;
-    align-items: center;
+    text-align: center;
     width: 230px;
     padding: 10px 10px;
     margin-bottom: 20px;
@@ -99,10 +100,12 @@ body {
 }
 .place-box {
     width: 230px;
-    display: flex;
-    align-items: center;
     padding: 10px 10px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 .icon-widget {
     font-size: 50px;
